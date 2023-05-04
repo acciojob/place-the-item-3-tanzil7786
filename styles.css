@@ -1,2 +1,25 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:flex;
+	flex-flow:row;
+	justify-content:space-evenly;
+	flex-wrap:wrap;
+	align-items:space-evenly;
+}
+.holder div{
+	height:100px;
+	width:100px;
+}
+#id1{
+	border:1px solid black;
+	background-color:red;	
+}
+#id2{
+	border:1px solid black;
+	background-color:yellow;
+}
+#id3{
+	border:1px solid black;
+	background-color:green;
+}
